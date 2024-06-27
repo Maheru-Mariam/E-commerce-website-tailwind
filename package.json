@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce-website-with-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css --watch",
+    "build-p": "postcss ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.4.4"
+  }
+}
